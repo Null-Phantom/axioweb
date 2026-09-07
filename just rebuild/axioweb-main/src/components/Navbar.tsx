@@ -117,7 +117,7 @@ export const Navbar: React.FC = () => {
           transition: 'background-color 0.25s, border-color 0.25s',
         }}
       >
-        <div style={{ maxWidth: '1440px', margin: '0 auto', width: '100%', padding: '0 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', boxSizing: 'border-box' }}>
+        <div style={{ maxWidth: '1600px', margin: '0 auto', width: '100%', padding: '0 clamp(20px, 3vw, 48px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', boxSizing: 'border-box' }}>
           
           {/* LEFT: Metriport Logo */}
           <a href="#" aria-label="Metriport — home" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', width: '150px' }}>
